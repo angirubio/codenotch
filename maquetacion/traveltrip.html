@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelo más Hotel - Halcón Viajes</title>
+    <link rel="stylesheet" href="traveltrip.css">
+    <link rel="shortcut icon" type="image/png" href="hal/halcon.png">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="traveltrip.js"></script>
+</head>
+    <body>
+
+    <nav class="menu">
+        <a href="https://www.halconviajes.com/"><h2>Halcón VIAJES</h2></a>
+        <a href="">Vacaciones</a>
+        <a href="">Vuelos</a>
+        <a href=""><i class="fa fa-map-marker"></i> Agencias</a>
+        <a href=""><i class="fa fa-headphones"></i> Contacta con nosotros</a>
+        <a href=""><i class="fas fa-user-alt"></i> Inicia sesión</a>
+        <a href=""><i class="fa fa-phone"></i> 900 80 20 20</a>
+    </nav>
+
+    
+    <div class="pics">
+        <img src="hal/carrusel1.png" style="width:100%">
+        <img src="hal/carrusel2.png" style="width:100%">
+    </div>
+
+    <div class="formulario">
+        <h3>Tu vuelo más hotel al mejor precio</h3>
+            <form>
+                    <label>Desde<span></span></label>
+                    <input type="text" id="origen" placeholder="Madrid, España">
+                    <label>Hacia<span></span></label>
+                    <input type="text" id="introducir_destino" placeholder="Cancún, México">                  
+                    <label>Ida</label>
+                    <input type="date" id="ida_fechas">
+                    <label>Vuelta</label>
+                    <input type="date" id="vuelta_fechas">
+                    <label>¿Cuantos pasajeros?</label>
+                    <input type="number" id="introducir_pasajeros" placeholder="2 Adultos, 1 Habitación">
+                    <button onclick="crearUsuario()" type="button"><p>Buscar <i class="fas fa-search"></i></p></button>
+                    <button onclick="filtrarR()" type="button"><p>Filtrar búsqueda <i class="fa fa-angellist"></i></p></button>
+                    <input type="text" id="mostrarR">
+
+            </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+body {
+    font-family: sans-serif;
+    background-color: #f8f7f7f1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+}
+  
+a {
+    text-decoration: none;
+  }
+  
+.inicial {
+    max-width: 935px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+  
+.caja {
+    max-width: 358px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+}
+  
+.cabeza {
+    margin: 22px auto 12px;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+    background-position: -98px 0;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+}
+  
+.campos {
+    margin: 10px 0;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+  }
+  
+input {
+    padding: 9px 0px 7px 9px;
+    font-size: 12px;
+    width: 16rem;
+    height: 1.2rem;
+    outline: none;
+    background: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+}
+input::placeholder {
+    visibility: hidden;
+}
+  
+label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    padding-bottom: 15px;
+    transform: translateY(10px);
+    line-height: 6px;
+    transition: all ease-out 0.1s;
+    font-size: 14px;
+    color: #999;
+    padding-top: 6px;
+}
+
+.login {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #38a6f07c;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+.separador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+}
+.separador .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+}
+  
+.parte_fb {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.boton_fb {
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3b5998;
+    font-weight: 600;
+    background: transparent;
+}
+.fb {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+}
+  
+.forgot {
+    font-size: 12px;
+    color:  #3b5998;
+  }
+
+.sign_up {
+    color: #38a6f0;
+}
+
+.apps {
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: inline;
+}
+
+.apps img {
+    width: 138.282px;
+    height: 40px;
+
+}
+
+footer {
+    order: 5;
+    padding: 0 20px;
+    margin-top: 70px;
+}
+.pie {
+    bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+.pie_nav, .ig_fb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 16px;
+    list-style: none;
+}
+.enlaces_pie {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.ig_fb {
+    color: rgba(var(--f52,142,142,142),1);
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+    <script src="imdb.js"></script>
+    <title>CODEFLIX</title>
+</head>
+<body>
+  
+    <div class="box-area">
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html">CODEFLIX</a>
+        </div>
+        <nav>
+            <a href="movies.html">Películas</a>
+            <a href="#">Contacto</a>
+            <a href="#"><i class="fa fa-film" aria-hidden="true"></i>
+            </a>
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </nav>
+      </div>
+    </header>
+    <div class="content-area">
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/2/25/Thor_-_The_Dark_World_poster.png/revision/latest?cb=20191029194909&path-prefix=es" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Thor: The Dark World</h4>
+          <p class="card-text">Malekith, un enemigo más antiguo que el universo, regresa a la Tierra para cumplir su plan destructor. Thor debe enfrentarse a un rival al que ni siquiera Odín parece poder detener y, desesperado, libera a su hermano Loki para que lo ayude.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(0)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BNjAzOTUzNTY3Ml5BMl5BanBnXkFtZTgwMjYwNzE5ODE@._V1_.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">The BFG</h4>
+          <p class="card-text">The BFG (conocida como Mi amigo el gigante en España y El buen amigo gigante en Hispanoamérica) es una película estadounidense de fantasía y aventuras dirigida por Steven Spielberg y escrita por Melissa Mathison, basada en la novela 'El gran gigante bonachón' de Roald Dahl.</p>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-primary" onclick="datosCuerpo(1)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://pics.filmaffinity.com/Joker-118854213-large.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">The Joker</h4>
+          <p class="card-text"><p>Megan, la trabajadora del turno nocturno de una morgue, recibe un cadáver desfigurado. A medida que sufre una serie de visiones espeluznantes, Megan empieza a sospechar que el cuerpo que acaban de recibir está poseído por una entidad demoníaca.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(2)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BMTg1MTY2MjYzNV5BMl5BanBnXkFtZTgwMTc4NTMwNDI@._V1_.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Black Panther</h4>
+          <p class="card-text"><p>Después de morir su padre, T'Challaregresa a su nación, Wakanda. Una vez allí, descubre que tiene un nuevo y terrible enemigo, y T'Challa asume la personalidad de Pantera Negra para salvar no solo al reino de Wakanda, sino a toda la humanidad..</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(3)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Wolf of Wall Street </h4>
+          <p class="card-text"><p>Jordan Belfort, corredor de bolsa de Nueva York, quien fundó la compañía Stratton Oakmont cuando aún era un veinteañero, desarrolla hábitos de exceso y corrupción.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(4)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" onclick="datosCuerpo(5)" src="https://i.pinimg.com/originals/20/e2/67/20e2679a18f037ba635745b7cd9265e8.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Alpha</h4>
+          <p class="card-text"><p>Hace 20.000 años, en plena glaciación, un joven resulta herido durante una cacería y sus compañeros se marchan, dándolo por muerto. El joven despierta y encuentra a un lobo que fue abandonado por su manada. Hombre y lobo intentarán sobrevivir juntos.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(5)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/6c/62/60/6c62604d2bd5d26e0a9437660bc325e1.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Iron Man3</h4>
+          <p class="card-text"><p>El descarado y brillante Tony Stark, tras ver destruido todo su universo personal, debe encontrar y enfrentarse a un enemigo cuyo poder no conoce límites. Este viaje pondrá a prueba su entereza una y otra vez, y le obligará a confiar en su ingenio.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(6)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://pics.filmaffinity.com/Nosotros-208891193-large.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Nosotros</h4>
+          <p class="card-text"><p>Megan, la trabajadora del turno nocturno de una morgue, recibe un cadáver desfigurado. A medida que sufre una serie de visiones espeluznantes, Megan empieza a sospechar que el cuerpo que acaban de recibir está poseído por una entidad demoníaca.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(7)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://pics.filmaffinity.com/Dr_Strange_Doctor_Extra_o-883697036-large.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Doctor Strange</h4>
+          <p class="card-text"><p>Después de sufrir un accidente, un brillante y arrogante cirujano busca rehabilitarse mediante técnicas alternativas. Sus intentos le llevan a descubrir que ha sido designado para encabezar la lucha contra una fuerza oscura y sobrenatural.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(8)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/6/66/Captain_Marvel_-_P%C3%B3ster_Diciembre_2018.png/revision/latest?cb=20191029195629&path-prefix=es" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Captain Marvel</h4>
+          <p class="card-text"><p>Una guerrera extraterrestre de la civilización Kree se encuentra atrapada en medio de una batalla. Con la ayuda de Nick Fury trata de descubrir los secretos de su pasado mientras aprovecha sus poderes para terminar la guerra.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(9)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://m.media-amazon.com/images/M/MV5BOGVlZjBiNzMtNTQxMi00ZWE3LWI1MmEtYzY0MmM2YjJkYWY4XkEyXkFqcGdeQXVyMjExMDIwNzA@._V1_UY268_CR1,0,182,268_AL_.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Cadaver</h4>
+          <p class="card-text"><p>Megan, la trabajadora del turno nocturno de una morgue, recibe un cadáver desfigurado. A medida que sufre una serie de visiones espeluznantes, Megan empieza a sospechar que el cuerpo que acaban de recibir está poseído por una entidad demoníaca.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(10)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="https://es.web.img3.acsta.net/pictures/14/06/17/14/04/353959.jpg" alt="">
+        <div class="card-body">
+          <h4 class="card-title">Guardianes de la Galaxia</h4>
+          <p class="card-text">Un aventurero espacial se convierte en la presa de unos cazadores de tesoros después de robar el orbe de un villano traicionero. Cuando descubre su poder, debe hallar la forma de unir a unos rivalespara salvar al universo.</p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(11)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center"  style="display: none;" id="divTodo">
+    <div class="col-lg-3 col-md-6 mb-4">
+      <div class="card h-100">
+        <img class="card-img-top" src="" alt="" id="newFoto">
+        <div class="card-body">
+          <h4 class="card-title" id="newTitle"></h4>
+          <p class="card-text" id="newData"></p>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary" onclick="datosCuerpo(12)" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" data-toggle="modal" data-target="#exampleModal" id="mymodal">Mostrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="mymodal">Demo</button> -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Película</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="picDiv"><img src="" alt="" id="picModal" style="width: 200px; height: 250px;"></div> 
+        <div class="modal-body" id="cuerpo"></div>
+        <div><h3>Actores</h3>
+          <div id="picDiv"><img src="" alt="" id="picModal2" style="width: 200px; height: 250px;"></div>
+          <div class="modal-body" id="cuerpo2"></div>
+          <div id="picDiv"><img src="" alt="" id="picModal3" style="width: 200px; height: 250px;"></div>
+          <div class="modal-body" id="cuerpo3"></div>              
+          <h3>Director</h3>
+          <div id="picDiv"><img src="" alt="" id="picModal4" style="width: 200px; height: 250px;"></div>
+          <div class="modal-body" id="cuerpo4"></div>             
+          <h3>Guionista</h3>
+          <div id="picDiv"><img src="" alt="" id="picModal5" style="width: 200px; height: 250px;"></div>
+          <div class="modal-body" id="cuerpo5"></div>             
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="formulario">
+    <h3>Ingresa una película</h3>
+        <form>
+          <label>Título</label>
+          <input type="text" id="titulo" placeholder="Origen">
+          <label>Año</label>
+          <input type="number" id="year" placeholder="2010">
+          <label>Nacionalidad</label>
+          <input type="text" id="nacionalidad" placeholder="Estados Unidos">
+          <label>Género</label>
+          <input type="text" id="genero" placeholder="Thriller">
+          <label>Foto</label>
+          <input type="text" id="fotillo" placeholder="link">
+          <label>Director</label>
+          <input type="text" id="add_director" placeholder="Nollan">  
+          <label>Guionista</label>
+          <input type="text" id="add_writer" placeholder="J. Johnson">
+          <label>Idioma</label>
+          <input type="text" id="add_idioma" placeholder="Inglés">
+          <label>Plataforma</label>
+          <input type="text" id="add_plataforma" placeholder="Netflix">
+          <label>¿Es MCU?</label>
+          <input type="checkbox" id="add_mcu">
+          <label>Personaje principal</label>
+          <input type="text" id="add_personaje" placeholder="Phin">
+          <label>Productora</label>
+          <input type="text" id="add_productora" placeholder="Universal Studios">  
+          <label>Distribuidora</label>
+          <input type="text" id="add_distribuidora" placeholder="Disney">        
+          <button class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" type="button" onclick="addFilm(12)" type="button"><p>Añadir</p></button>
+        </form>
+  </div>
+      <footer class="py-5 bg-dark" style="background-color: rgb(0, 0, 0) !important;">
+        <div class="container">
+          <p class="m-0 text-center text-white">Copyright &copy; Codeflix 2020</p>
+        </div>
+      </footer>    
+</body>
+</html>

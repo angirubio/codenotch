@@ -1,0 +1,93 @@
+{
+    "title": "El laberinto del socarrat",
+    "releaseYear": 1994,
+    "nationality": "Gerogia",
+    "genre": "Turbio",
+    "actors": [
+        {
+            "name": "Nino Essex",
+            "age": 27,
+            "genre": "Hombre",
+            "weight": 70,
+            "height": 180,
+            "hairColor": "Castaño",
+            "eyeColor": "Castaño",
+            "race": "Europeo",
+            "isRetired": false,
+            "nationality": "Italiano",
+            "oscarsNumber": 1,
+            "profession": "Actor"
+        },
+        {
+            "name": "Wu Jinyan",
+            "age": 30,
+            "genre": "Mujer",
+            "weight": 50,
+            "height": 160,
+            "hairColor": "Rubio",
+            "eyeColor": "Verde",
+            "race": "Asiático",
+            "isRetired": false,
+            "nationality": "China",
+            "oscarsNumber": 0,
+            "profession": "Actor"
+        },
+        {
+            "name": "Xiao Zhan",
+            "age": 28,
+            "genre": "Hombre",
+            "weight": 70,
+            "height": 183,
+            "hairColor": "Moreno",
+            "eyeColor": "Castaño",
+            "race": "Asiático",
+            "isRetired": false,
+            "nationality": "China",
+            "oscarsNumber": 2,
+            "profession": "Actor"
+        },
+        {
+            "name": "Yan Yang",
+            "age": 35,
+            "genre": "Hombre",
+            "weight": 70,
+            "height": 180,
+            "hairColor": "Pelirrojo",
+            "eyeColor": "Negro",
+            "race": "Asiático",
+            "isRetired": false,
+            "nationality": "China",
+            "oscarsNumber": 1,
+            "profession": "Actor"
+        }
+    ],
+    "director": {
+        "name": "Li Lin",
+        "age": 38,
+        "genre": "Mujer",
+        "weight": 60,
+        "height": 175,
+        "hairColor": "Oscuro",
+        "eyeColor": "Azul",
+        "race": "Asiática",
+        "isRetired": true,
+        "nationality": "China",
+        "oscarsNumber": 0,
+        "profession": "Director"
+    },
+    "writer": {
+        "name": "Zhan Ziyi",
+        "age": 41,
+        "genre": "Mujer",
+        "weight": 55,
+        "height": 165,
+        "hairColor": "Moreno",
+        "eyeColor": "Castaño",
+        "race": "Asiático",
+        "isRetired": false,
+        "nationality": "China",
+        "oscarsNumber": 3,
+        "profession": "Guionista"
+    },
+    "language": "Russian"
+}

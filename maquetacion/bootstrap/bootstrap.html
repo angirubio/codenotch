@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootrstrap.css">
+    <script src="bootstrap.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Quierotudinero.com</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Portada
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Referencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Legal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <header class="jumbotron my-4">
+      <h1 class="display-3">Somos un cuadro ;)</h1>
+      <p class="lead">Esta es una tienda online dedicada a diseñar exclusivamente productos que acerquen a nuestro equipo al retiro laboral.</p>
+    </header>
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/1.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Máscara Ostra</h4>
+            <p class="card-text">Esta máscara está hecha de látez natural. Es eco friendly y no tóxica. <br> Además, no se parece realmente a una Ostra... <br> <strong>15.00€</strong></p>
+          </div>
+          <div class="card-footer">
+            <button onclick="addToCart('Máscara Ostra', 1, 15.00)" class="btn btn-primary" id="mascara" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)">Añadir al carrito!</button>
+            <button onclick="removeFromCart('Máscara Ostra', 1, 15.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/decision_maker.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Moneda Toma Decisiones</h4>
+            <p class="card-text">"To give a fuck, or not to give - That is the question" <br>100% falsa <br><strong>12.00€</strong></p>
+          </div>
+          <div class="card-footer">
+            <button onclick="addToCart('Moneda Toma Decisiones', 1, 12.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="moneda">Añadir al carrito!</button>
+            <button onclick="removeFromCart('Moneda Toma Decisiones', 1, 12.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/trump_scented.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Vela Esencia Trump</h4>
+            <p class="card-text">El aroma a Trump es grandioso.</p><p>Combina con olores clásicos, loción solar y filetes.</p><p><strong>20,00€</strong></p>
+          </div>
+          <div class="card-footer">
+            <button onclick="addToCart('Vela Esencia Trump', 1, 20.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="vela">Añadir al carrito!</button>
+            <button onclick="removeFromCart('Vela Esencia Trump', 1, 20.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/miss_drugs.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">I Miss Drugs Esterilla Yoga</h4>
+            <p class="card-text">Perfecta para hacerse fotos en ella. O practicar yoga recordando aquellos tiempos.</p> <p><strong>25.00€</strong></p>
+          </div>
+          <div class="card-footer">
+            <button onclick="addToCart('I Miss Drugs Esterilla Yoga', 1, 25.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="esterilla">Añadir al carrito!</button>
+            <button onclick="removeFromCart('I Miss Drugs Esterilla Yoga', 1, 25.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/noodles_handbag.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Bolso Yakisoba</h4>
+              <p class="card-text">Prepárate en 2 minutos, como los yakisoba.</p> <p><strong>35.00€</strong></p>
+            </div>
+            <div class="card-footer">
+                <button onclick="addToCart('Bolso Yakisoba', 1, 35.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="bolso">Añadir al carrito!</button>
+                <button onclick="removeFromCart('Bolso Yakisoba', 1, 35.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+            </div>
+          </div>
+        </div>  
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/fat_replica.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Réplica 2Kg Grasa Humana</h4>
+              <p class="card-text">Este modelo de aproximadamente 2Kg de material termoplástico simula el tejido graso humano. <p><strong>45.00€</strong> </p>
+            </div>
+            <div class="card-footer">
+                <button onclick="addToCart('Réplica 2Kg Grasa Humana', 1, 45.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="grasa">Añadir al carrito!</button>
+                <button onclick="removeFromCart('Réplica 2Kg Grasa Humana', 1, 45.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+            </div>
+          </div>
+        </div>  
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/goaway_mug.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Taza Café</h4>
+              <p class="card-text">Empieza el día con tus términos la "Go Away" Mug deja claro cómo vas de ganas de aguantar a gente</p> <p><strong>17.00€</strong></p>
+            </div>
+            <div class="card-footer">
+                <button onclick="addToCart('Taza Café', 1, 17.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="taza">Añadir al carrito!</button>
+                <button onclick="removeFromCart('Taza Café', 1, 17.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+            </div>
+          </div>
+        </div>  
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100">
+            <img class="card-img-top" src="img/notebook_camouflaged.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Cuaderno Camuflado de Libro</h4>
+              <p class="card-text">Este es un libro falso que puede usarse como cuaderno, agenda, borrador, o lo que quieras. <br><strong>25.00€</strong></p>
+            </div>
+            <div class="card-footer">
+                <button onclick="addToCart('Cuaderno Camuflado de Libro', 1, 25.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">Añadir al carrito!</button>
+                <button onclick="removeFromCart('Cuaderno Camuflado de Libro', 1, 25.00)" class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)" id="cuaderno">-</button>
+
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  </div>
+  <div class="container">
+    <div class="jumbotron">
+        <h3>El Carrito </h3>
+        <p id="datos_carrito"></p>
+        <p id="total"></p>
+        <button onclick="mostrarCarrito()" class="btn btn-primary btn-lg" id="mascara" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)">Shut up and take my money!</button>
+
+    </div>    
+  </div>
+
+<!-- <div class="container mb-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col" class="text-center">Quantity</th>
+                            <th scope="col" class="text-right">Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="nombre_producto">Producto</td>
+                            <td><input class="form-control" id="cantidad_producto" type="number" value=0  /></td>
+                            <td class="text-right" id="precio_producto">0 €</td>
+                        </tr>
+                        <tr>
+                            <td>Producto</td>
+                            <td><input class="form-control" type="text" value="0" /></td>
+                            <td class="text-right">0 €</td>
+                        </tr>
+                        <tr>
+                            <td>Producto</td>
+                            <td><input class="form-control" type="text" value="0" /></td>
+                            <td class="text-right">0 €</td>
+                        </tr>                     
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="text-right"><strong>Total: </strong>0 €</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col mb-2">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 text-right">
+                    <button class="btn btn-primary" style="background-color:rgba(0, 0, 0, 0.747); border-color: rgba(0, 0, 0, 0.808)">Pagar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Quierotudinero.com 2020</p>
+    </div>
+  </footer>
+  <!-- <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>

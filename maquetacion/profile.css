@@ -1,0 +1,240 @@
+:root {
+    font-size: 10px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+    font-family: Helvetica;
+}
+
+.menu {
+    position: sticky;
+    width: 100%;
+    height: 70px;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    top:0px;
+    padding: 10px;
+    
+}
+
+.foto_perfil {
+    display: block;
+    width: 19rem;
+    height: 19rem;
+}
+
+.inicial {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.perfil {
+    padding: 5rem 0;
+}
+
+.perfil::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.img_perfil {
+    float: left;
+    width: calc(33.333% - 1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.img_perfil img {
+    border-radius: 50%;
+    border: 7px double #e6e6e6;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+.settings, .status, .bio {
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+
+.settings {
+    margin-top: 1.1rem;
+}
+
+.nombre_usuario {
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.editar_perfil {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 2.4rem;
+    margin-left: 2rem;
+}
+
+.settings_button {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.status {
+    margin-top: 2.3rem;
+}
+
+.status li {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.status li:last-of-type {
+    margin-right: 0;
+}
+
+.bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2.3rem;
+}
+
+.nombre, .contador {
+    font-weight: 600;
+}
+
+footer {
+    order: 5;
+    padding: 0 20px;
+    margin-top: 70px;
+}
+.pie {
+    bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+}
+.pie_nav, .ig_fb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 16px;
+    list-style: none;
+}
+.enlaces_pie {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.ig_fb {
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+/* Media Query */
+
+@media screen and (max-width: 358px) {
+.perfil {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+}
+
+.perfil::after {
+    display: none;
+}
+
+.img_perfil, .settings, .bio, .status {
+    float: none;
+    width: auto;
+}
+
+.img_perfil img {
+    width: 7.7rem;
+}
+
+.settings {
+    flex-basis: calc(100% - 10.7rem);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.nombre_usuario {
+    font-size: 2.2rem;
+}
+
+.profile-edit-btn {
+    order: 1;
+    padding: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.editar_perfil {
+    margin-left: 0;
+    
+}
+
+.bio {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+.editar_perfil, .io, .status {
+    flex-basis: 100%;
+}
+
+.status {
+    order: 1;
+    margin-top: 1.5rem;
+}
+
+.status ul {
+    display: flex;
+    text-align: center;
+    padding: 1.2rem 0;
+    border-top: 0.1rem solid #dadada;
+    border-bottom: 0.1rem solid #dadada;
+}
+
+.status li {
+    font-size: 1.4rem;
+    flex: 1;
+    margin: 0;
+}
+
+.contador {
+    display: block;
+}
+}
